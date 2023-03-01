@@ -1,0 +1,5 @@
+@media screen and (min-width:768px) {
+    .ms_nav-left{
+        width: 200px;
+    }
+}

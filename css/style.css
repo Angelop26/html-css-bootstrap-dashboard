@@ -2,3 +2,43 @@
 img{
     width: 100%;
 }
+
+.ms_mc-wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+/* COMMON */
+
+/* HEADER */
+header{
+    /* debug */
+    height: 80px;
+    background-color: aqua;
+}
+/* MAIN */
+main{
+    /* debug */
+    height: 100%;
+    background-color: blue;
+}
+/* navbar left */
+.ms_nav-left{
+    /* debug */
+    background-color: brown;
+    width: 100px;
+    height: 100%;
+}
+
+/* main content */
+.ms_main-content{
+    overflow-y: auto;
+    /* debug */
+    width: calc(100% - 100px);
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.ms_banner{
+    
+}
