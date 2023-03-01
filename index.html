@@ -24,7 +24,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img class="mc_small-logo d-lg-none" src="img/mobile-logo.png" alt="">
+                        <img class="ms_small-logo d-lg-none" src="img/mobile-logo.png" alt="">
                         <img class="d-none d-lg-block" src="img/logo.svg" alt="boolean-logo">
                     </a>
                     <form class="flex-grow-1" role="search">
@@ -46,33 +46,75 @@
         <!-- /header -->
 
         <!-- main -->
-        <main class="d-flex">
+        <main class=" ms_main d-flex">
             <!-- navbar left -->
-            <nav class="ms_nav-left d-flex flex-column justify-content-between  align-items-center">
-                <ul class="p-0 mt-4">
-                    <li class="d-flex mb-2 align-items-baseline">
-                        <i class="fa-solid fa-house me-3"></i>
-                        <span class="ms_text-sidebar d-none d-lg-block">Home</span>
+            <nav class="ms_nav-left d-flex flex-column justify-content-between">
+                <ul class="p-0 mt-4 mx-auto">
+                    <li class="d-flex mb-3 align-items-baseline">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="ms_text-sidebar d-none d-lg-block ms-3">Home</span>
                     </li>
-                    <li class="d-flex mb-2 align-items-baseline">
-                        <i class="fa-solid fa-chart-simple me-3"></i>
-                        <span class="ms_text-sidebar d-none d-lg-block">Stats</span>
+                    <li class="d-flex mb-3 align-items-baseline">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span class="ms_text-sidebar d-none d-lg-block ms-3">Stats</span>
                     </li>
-                    <li class="d-flex mb-2 align-items-baseline">
-                        <i class="fa-solid fa-signal me-3"></i>
-                        <span class="ms_text-sidebar d-none d-lg-block">Signal</span>
+                    <li class="d-flex mb-3 align-items-baseline">
+                        <i class="fa-solid fa-signal"></i>
+                        <span class="ms_text-sidebar d-none d-lg-block ms-3">Signal</span>
                     </li>
                 </ul>
-                <div class="ms_entity mb-4 d-flex align-items-baseline">
-                    <i class="fa-solid fa-gear me-3"></i>
-                    <span class="ms_text-sidebar d-none d-lg-block">Admin</span>
+                <div class="ms_entity mb-4 d-flex justify-content-center align-items-baseline">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="ms_text-sidebar d-none d-lg-block ms-3">Admin</span>
                 </div>
             </nav>
             <!-- /navbar left -->
 
             <!-- main content -->
             <div class="ms_main-content">
-                <div class="ms_banner"></div>
+                <div class="ms_banner text-white pb-3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-6 mt-4">
+                                <div class="d-flex align-items-baseline">
+                                    <h3>Boolean</h3>
+                                    <div class="badge rounded-pill ms-2">Piano Blaze</div>
+                                </div>
+                                <div class="ms_badges">
+                                    <span class="badge rounded-pill">3 app</span>
+                                    <span><i class="fa-solid fa-angles-right"></i></span>
+                                    <span class="badge rounded-pill d-lg-none">+</span>
+                                    <span class="badge rounded-pill d-none d-lg-inline">Boolean mobile app</span>
+                                    <span class="badge rounded-pill d-none d-lg-inline"> Boolean web app</span>
+                                    <span class="badge rounded-pill d-none d-lg-inline">Boolean blog app</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-3 mt-4">
+                                Studenti online negli ultimi 30 minuti
+                                <h3>125</h3>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-lg-3 order-first order-md-last d-flex align-items-center mt-4">
+                                <div class="me-3">Nuovo Studente</div> 
+                                <button class="navbar-toggler p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span> <i class="fa-regular fa-square-plus"></i> </span>
+                                </button>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ms_main">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-lg-8">classi</div>
+                            <div class="col-12 col-lg-4 order-1 order-lg-0">todo</div>
+                            <div class="col-12 col-lg-8">faq</div>
+                            <div class="col-12 col-lg-4 order-last">immage</div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- /main content -->
         </main>

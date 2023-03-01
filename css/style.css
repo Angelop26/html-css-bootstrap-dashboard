@@ -13,7 +13,7 @@ ul{
     list-style-type: none;
 }
 /* HEADER */
-.mc_small-logo{
+.ms_small-logo{
     width: 65px;
 }
 
@@ -33,30 +33,40 @@ header .navbar-collapse{
     flex-grow: 0;
 }
 /* MAIN */
-main{
-    /* debug */
+.ms_main{
     height: 100%;
-    background-color: blue;
 }
 /* navbar left */
 .ms_nav-left{
-    /* debug */
+    height: 100%;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
-    width: 100px;
+    width: 80px;
     color: white;
     
 }
 
 /* main content */
 .ms_main-content{
+    width: calc(100% - 80px);
+    height: 100%;
     overflow-y: auto;
     /* debug */
-    width: calc(100% - 100px);
-    height: 100%;
     background-color: cadetblue;
 }
 
+/* Banner */
 .ms_banner{
-    
+    background-color: #1B72E8;
+}
+.ms_banner .navbar-toggler-icon{
+    background-image: none;
+}
+
+.ms_banner .navbar-toggler{
+    font-size: 3rem;
+}
+
+.badge{
+    background-color: #165BBA;
 }
