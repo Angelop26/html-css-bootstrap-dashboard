@@ -1,6 +1,6 @@
 /* RESET */
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .ms_mc-wrapper{
@@ -13,8 +13,24 @@ img{
 /* HEADER */
 header{
     /* debug */
-    height: 80px;
-    background-color: aqua;
+    /* height: 80px; */
+    /* background-color: aqua; */
+}
+
+.mc_small-logo{
+    width: 65px;
+}
+
+.form-control{
+    background-color: #E5E5E5;
+}
+
+header .ms_entity{
+    color: #FF8F00;
+}
+
+header .navbar-collapse{
+    flex-grow: 0;
 }
 /* MAIN */
 main{
