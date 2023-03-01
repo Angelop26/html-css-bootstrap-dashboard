@@ -28,7 +28,11 @@
                         <img class="d-none d-lg-block" src="img/logo.svg" alt="boolean-logo">
                     </a>
                     <form class="flex-grow-1" role="search">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                          </div>
+                          
                     </form>
                     <div class="collapse navbar-collapse  justify-content-around" id="navbarSupportedContent">
                       <i class="fa-solid fa-list-ul ms-3"></i>
@@ -44,7 +48,26 @@
         <!-- main -->
         <main class="d-flex">
             <!-- navbar left -->
-            <nav class="ms_nav-left"></nav>
+            <nav class="ms_nav-left d-flex flex-column justify-content-between  align-items-center">
+                <ul class="p-0 mt-4">
+                    <li class="d-flex mb-2 align-items-baseline">
+                        <i class="fa-solid fa-house me-3"></i>
+                        <span class="ms_text-sidebar d-none d-lg-block">Home</span>
+                    </li>
+                    <li class="d-flex mb-2 align-items-baseline">
+                        <i class="fa-solid fa-chart-simple me-3"></i>
+                        <span class="ms_text-sidebar d-none d-lg-block">Stats</span>
+                    </li>
+                    <li class="d-flex mb-2 align-items-baseline">
+                        <i class="fa-solid fa-signal me-3"></i>
+                        <span class="ms_text-sidebar d-none d-lg-block">Signal</span>
+                    </li>
+                </ul>
+                <div class="ms_entity mb-4 d-flex align-items-baseline">
+                    <i class="fa-solid fa-gear me-3"></i>
+                    <span class="ms_text-sidebar d-none d-lg-block">Admin</span>
+                </div>
+            </nav>
             <!-- /navbar left -->
 
             <!-- main content -->

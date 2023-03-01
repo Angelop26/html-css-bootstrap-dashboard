@@ -9,19 +9,19 @@ img{
 }
 
 /* COMMON */
-
-/* HEADER */
-header{
-    /* debug */
-    /* height: 80px; */
-    /* background-color: aqua; */
+ul{
+    list-style-type: none;
 }
-
+/* HEADER */
 .mc_small-logo{
     width: 65px;
 }
 
 .form-control{
+    background-color: #E5E5E5;
+}
+
+header .input-group-text{
     background-color: #E5E5E5;
 }
 
@@ -41,9 +41,11 @@ main{
 /* navbar left */
 .ms_nav-left{
     /* debug */
-    background-color: brown;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
     width: 100px;
-    height: 100%;
+    color: white;
+    
 }
 
 /* main content */
