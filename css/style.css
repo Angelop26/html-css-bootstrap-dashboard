@@ -70,3 +70,34 @@ header .navbar-collapse{
 .badge{
     background-color: #165BBA;
 }
+
+/* main */
+.ms_main .accordion{
+    border-radius: 0;
+}
+
+.ms_main .ms_container{
+    background-color: white;
+}
+
+.table .btn{
+    border-color: black;
+}
+
+.ms_done{
+    background-color: #198754;
+}
+
+.ms_process{
+    background-color: #FFC107;
+}
+
+.ms_failed{
+    background-color: #DC3545;
+}
+th span{
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #F26551;
+}
