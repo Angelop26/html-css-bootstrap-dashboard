@@ -27,6 +27,7 @@ header .input-group-text{
 
 header .ms_entity{
     color: #FF8F00;
+    cursor: pointer;
 }
 
 header .navbar-collapse{
@@ -34,8 +35,9 @@ header .navbar-collapse{
 }
 /* MAIN */
 .ms_main{
-    height: 100%;
+    height: calc(100% - 91px);
 }
+
 /* navbar left */
 .ms_nav-left{
     height: 100%;
@@ -43,7 +45,7 @@ header .navbar-collapse{
     background-color: #051E34;
     width: 80px;
     color: white;
-    
+  
 }
 
 /* main content */
@@ -51,8 +53,6 @@ header .navbar-collapse{
     width: calc(100% - 80px);
     height: 100%;
     overflow-y: auto;
-    /* debug */
-    background-color: cadetblue;
 }
 
 /* Banner */
@@ -69,6 +69,20 @@ header .navbar-collapse{
 
 .badge{
     background-color: #165BBA;
+}
+
+.badge:hover{
+    cursor: pointer;
+    background-color: #051E34;
+}
+
+.ms_new-student>.btn{
+    color: white;
+    font-size: 3rem;
+}
+
+.ms_new-student>.btn:active{
+    border-color: transparent;
 }
 
 /* main */

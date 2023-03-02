@@ -1,4 +1,8 @@
 @media screen and (min-width:992px) {
+    .ms_main{
+        height: calc(100% - 54px);
+    }
+
     .ms_main-content{
         width: calc(100% - 150px);
     }

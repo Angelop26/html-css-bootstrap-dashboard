@@ -16,319 +16,337 @@
 
     <!-- Responsive -->
     <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="ms_mc-wrapper">
-        <!-- header -->
-        <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img class="ms_small-logo d-lg-none" src="img/mobile-logo.png" alt="">
-                        <img class="d-none d-lg-block" src="img/logo.svg" alt="boolean-logo">
-                    </a>
-                    <form class="flex-grow-1" role="search">
-                        <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
-                          </div>
-                          
-                    </form>
-                    <div class="collapse navbar-collapse  justify-content-around" id="navbarSupportedContent">
-                      <i class="fa-solid fa-list-ul ms-3"></i>
-                      <i class="fa-solid fa-circle-question ms-3"></i>
-                      <i class="fa-solid fa-ellipsis-vertical ms-3"></i>
-                    </div>
-                    <i class="ms_entity fa-solid fa-bell ms-3"></i>
-                </div>
-              </nav> 
-        </header>
-        <!-- /header -->
-
-        <!-- main -->
-        <main class=" ms_main d-flex">
-            <!-- navbar left -->
-            <nav class="ms_nav-left d-flex flex-column justify-content-between">
-                <ul class="p-0 mt-4 mx-auto">
-                    <li class="d-flex mb-3 align-items-baseline">
-                        <i class="fa-solid fa-house"></i>
-                        <span class="ms_text-sidebar d-none d-lg-block ms-3">Home</span>
-                    </li>
-                    <li class="d-flex mb-3 align-items-baseline">
-                        <i class="fa-solid fa-chart-simple"></i>
-                        <span class="ms_text-sidebar d-none d-lg-block ms-3">Stats</span>
-                    </li>
-                    <li class="d-flex mb-3 align-items-baseline">
-                        <i class="fa-solid fa-signal"></i>
-                        <span class="ms_text-sidebar d-none d-lg-block ms-3">Signal</span>
-                    </li>
-                </ul>
-                <div class="ms_entity mb-4 d-flex justify-content-center align-items-baseline">
-                    <i class="fa-solid fa-gear"></i>
-                    <span class="ms_text-sidebar d-none d-lg-block ms-3">Admin</span>
-                </div>
-            </nav>
-            <!-- /navbar left -->
-
-            <!-- main content -->
-            <div class="ms_main-content">
-                <div class="ms_banner text-white pb-3">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-md-4 col-lg-6 mt-4">
-                                <div class="d-flex align-items-baseline">
-                                    <h3>Boolean</h3>
-                                    <div class="badge rounded-pill ms-2">Piano Blaze</div>
-                                </div>
-                                <div class="ms_badges">
-                                    <span class="badge rounded-pill">3 app</span>
-                                    <span><i class="fa-solid fa-angles-right"></i></span>
-                                    <span class="badge rounded-pill d-lg-none">+</span>
-                                    <span class="badge rounded-pill d-none d-lg-inline">Boolean mobile app</span>
-                                    <span class="badge rounded-pill d-none d-lg-inline"> Boolean web app</span>
-                                    <span class="badge rounded-pill d-none d-lg-inline">Boolean blog app</span>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 mt-4">
-                                Studenti online negli ultimi 30 minuti
-                                <h3>125</h3>
-                            </div>
-
-                            <div class="col-12 col-md-4 col-lg-3 order-first order-md-last d-flex align-items-center mt-4">
-                                <div class="me-3">Nuovo Studente</div> 
-                                <button class="navbar-toggler p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span> <i class="fa-regular fa-square-plus"></i> </span>
-                                </button>
-                              
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ms_main">
-                    <div class="container-fluid">
-                        <div class="row mt-2 g-3">
-                            <div class="col-12 col-lg-8">
-                                <div class="card">
-                                    <div class="card-header fw-bold">
-                                        Prossime classi
-                                    </div>
-                                    <table class="table">
-                                        <thead>
-                                          <tr>
-                                            <th scope="col" colspan="4">Nome</th>
-                                            <th scope="col">Data inizio</th>
-                                            <th scope="col">ROI</th>
-                                            <th scope="col">Stato</th>
-                                            <th scope="col">Azioni</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                             <th scope="row" colspan="4">
-                                                 <span><i class="fa-solid fa-code"></i></span> Classe 75  
-                                             </th>
-                                             <td>15 Feb 2021</td>
-                                             <td>20%</td>
-                                             <td><div class="badge ms_done">Done</div></td>
-                                             <td>
-                                                 <button class="btn"><i class="fa-solid fa-pencil"></i></button>
-                                                 <button class="btn"><i class="fa-solid fa-trash"></i></button>
-                                             </td>
-                                           </tr>
-                                          <tr>
-                                            <th scope="row" colspan="4">
-                                                <span><i class="fa-solid fa-code"></i></span> Classe 76  
-                                            </th>
-                                            <td>16 Feb 2021</td>
-                                            <td>20%</td>
-                                            <td><div class="badge ms_done">Done</div></td>
-                                            <td>
-                                                <button class="btn"><i class="fa-solid fa-pencil"></i></button>
-                                                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" colspan="4">
-                                                <span><i class="fa-solid fa-code"></i></span> Classe 77  
-                                            </th>
-                                            <td>17 Feb 2021</td>
-                                            <td>20%</td>
-                                            <td><div class="badge ms_process">Process</div></td>
-                                            <td>
-                                                <button class="btn"><i class="fa-solid fa-pencil"></i></button>
-                                                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" colspan="4">
-                                                <span><i class="fa-solid fa-code"></i></span> Classe 78  
-                                            </th>
-                                            <td>18 Feb 2021</td>
-                                            <td>20%</td>
-                                            <td><div class="badge ms_done">Done</div></td>
-                                            <td>
-                                                <button class="btn"><i class="fa-solid fa-pencil"></i></button>
-                                                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" colspan="4">
-                                                <span><i class="fa-solid fa-code"></i></span> Classe 79  
-                                            </th>
-                                            <td>19 Feb 2021</td>
-                                            <td>20%</td>
-                                            <td><div class="badge ms_failed">failed</div></td>
-                                            <td>
-                                                <button class="btn"><i class="fa-solid fa-pencil"></i></button>
-                                                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" colspan="4">
-                                                <span><i class="fa-solid fa-code"></i></span> Classe 80  
-                                            </th>
-                                            <td>20 Feb 2021</td>
-                                            <td>20%</td>
-                                            <td><div class="badge ms_done">Done</div></td>
-                                            <td>
-                                                <button class="btn"><i class="fa-solid fa-pencil"></i></button>
-                                                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" colspan="4">
-                                                <span><i class="fa-solid fa-code"></i></span> Classe 81  
-                                            </th>
-                                            <td>21 Feb 2021</td>
-                                            <td>20%</td>
-                                            <td><div class="badge ms_failed">failed</div></td>
-                                            <td>
-                                                <button class="btn"><i class="fa-solid fa-pencil"></i></button>
-                                                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" colspan="4">
-                                                <span><i class="fa-solid fa-code"></i></span> Classe 82  
-                                            </th>
-                                            <td>22 Feb 2021</td>
-                                            <td>20%</td>
-                                            <td><div class="badge ms_done">Done</div></td>
-                                            <td>
-                                                <button class="btn"><i class="fa-solid fa-pencil"></i></button>
-                                                <button class="btn"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-4 order-1 order-lg-0">
-                                <div class="card">
-                                    <div class="card-header fw-bold">
-                                        Todo
-                                    </div>
-                                    <div class="p-3">
-                                        <div class="card">
-                                            <ul class="list-group list-group-flush">
-                                              <li class="list-group-item">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="kickoff">
-                                                    <label class="form-check-label" for="kickoff">
-                                                        Kickoff nuove classi
-                                                    </label>
-                                                </div>
-                                              </li>
-                                              <li class="list-group-item">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="lezionebootstrap">
-                                                    <label class="form-check-label" for="lezionebootstrap">
-                                                        Lezione su Bootstrap 5 in classe #75
-                                                    </label>
-                                                </div>
-                                              </li>
-                                              <li class="list-group-item">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="usernamegithub">
-                                                    <label class="form-check-label" for="usernamegithub">
-                                                        Controllare username github studenti
-                                                    </label>
-                                                </div>
-                                              </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-8">
-                                <div class="card">
-                                    <div class="card-header fw-bold">
-                                      F.A.Q
-                                    </div>
-                                    <div class="accordion" id="accordionExample">
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                              Come aggiungere un nuovo studente?
-                                            </button>
-                                          </h2>
-                                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                              Come posso accedere alle informazioni del mio account?
-                                            </button>
-                                          </h2>
-                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                              Posso usare questa dashboard da mobile?
-                                            </button>
-                                          </h2>
-                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                  </div>
-                            </div>
-                            <div class="col-12 col-lg-4 order-last">
-                                <div class="ms_container border rounded p-3">
-                                    <div class="card">
-                                        <img src="img/stats.jpeg" class="card-img-top" alt="stats">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Utenti attivi</h5>
-                                            <p class="card-text border-bottom">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
-                                            <div class="border-bottom py-1">Gennaio: 1200</div>
-                                            <div class="border-bottom py-1">Febbraio: 800</div>
-                                            <div class="border-bottom py-1">Marzo: 1500</div>
-                                            <a href="#">Visualizza report approfondito</a>
-                                        </div>
-                                    </div>    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <div class="ms_mc-wrapper">
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img class="ms_small-logo d-lg-none" src="img/mobile-logo.png" alt="">
+              <img class="d-none d-lg-block" src="img/logo.svg" alt="boolean-logo">
+          </a>
+          <form class="flex-grow-1" role="search">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
             </div>
-            <!-- /main content -->
-        </main>
-        <!-- /main -->
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+          </form>
+          <div class="collapse navbar-collapse  justify-content-around">
+            <i class="fa-solid fa-list-ul ms-3"></i>
+            <i class="fa-solid fa-circle-question ms-3"></i>
+            <i class="fa-solid fa-ellipsis-vertical ms-3"></i>
+          </div>
+          <i class="ms_entity fa-solid fa-bell ms-3"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- /header -->
+
+    <!-- main -->
+    <main class=" ms_main d-flex">
+        <!-- navbar left -->
+        <nav class="ms_nav-left d-flex flex-column justify-content-between">
+            <ul class="p-0 mt-4 mx-auto">
+                <li class="d-flex mb-3 align-items-baseline">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="ms_text-sidebar d-none d-lg-block ms-3">Home</span>
+                </li>
+                <li class="d-flex mb-3 align-items-baseline">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span class="ms_text-sidebar d-none d-lg-block ms-3">Stats</span>
+                </li>
+                <li class="d-flex mb-3 align-items-baseline">
+                    <i class="fa-solid fa-signal"></i>
+                    <span class="ms_text-sidebar d-none d-lg-block ms-3">Signal</span>
+                </li>
+            </ul>
+            <div class="ms_entity mb-4 d-flex justify-content-center align-items-baseline">
+                <i class="fa-solid fa-gear"></i>
+                <span class="ms_text-sidebar d-none d-lg-block ms-3">Admin</span>
+            </div>
+        </nav>
+        <!-- /navbar left -->
+
+        <!-- main content -->
+        <div class="ms_main-content">
+
+          <!-- banner -->
+          <div class="ms_banner text-white pb-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-md-4 col-lg-6 mt-4">
+                  <div class="d-flex align-items-baseline">
+                    <h3>Boolean</h3>
+                    <div class="badge rounded-pill ms-2">Piano Blaze</div>
+                  </div>
+                  <div class="ms_badges">
+                    <span class="badge rounded-pill">3 app</span>
+                    <span><i class="fa-solid fa-angles-right"></i></span>
+                    <span class="badge rounded-pill d-lg-none">+</span>
+                    <span class="badge rounded-pill d-none d-lg-inline">Boolean mobile app</span>
+                    <span class="badge rounded-pill d-none d-lg-inline"> Boolean web app</span>
+                    <span class="badge rounded-pill d-none d-lg-inline">Boolean blog app</span>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mt-4">
+                  Studenti online negli ultimi 30 minuti
+                  <h3>125</h3>
+                </div>
+
+                <div class="ms_new-student col-12 col-md-4 col-lg-3 order-first order-md-last d-flex align-items-center mt-4">
+                  <div class="me-3">Nuovo Studente</div>
+                  <button class="btn p-0 m-0" type="button" data-bs-toggle="offcanvas" data-bs-target="offcanvasExample" aria-controls="offcanvasExample">
+                    <span> <i class="fa-regular fa-square-plus"></i> </span>
+                  </button>
+
+                  <!-- offcanvas -->
+                  <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    </div>
+                  </div>
+                  <!-- /offcanvas -->
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /banner -->
+
+          <!-- data -->
+          <div class="ms_main">
+            <div class="container-fluid">
+              <div class="row mt-2 g-3">
+                <div class="col-12 col-lg-8">
+
+                  <!-- table -->
+                  <div class="card mb-3">
+                    <div class="card-header fw-bold">
+                      Prossime classi
+                    </div>
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col" colspan="4">Nome</th>
+                          <th scope="col" class="d-none d-lg-table-cell">Data inizio</th>
+                          <th scope="col" class="d-none d-md-table-cell">ROI</th>
+                          <th scope="col">Stato</th>
+                          <th scope="col">Azioni</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" colspan="4">
+                            <span><i class="fa-solid fa-code"></i></span> Classe 75
+                          </th>
+                          <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><div class="badge ms_done">Done</div></td>
+                          <td>
+                            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row" colspan="4">
+                            <span><i class="fa-solid fa-code"></i></span> Classe 76
+                          </th>
+                          <td class="d-none d-lg-table-cell">16 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><div class="badge ms_done">Done</div></td>
+                          <td>
+                            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row" colspan="4">
+                            <span><i class="fa-solid fa-code"></i></span> Classe 77
+                          </th>
+                          <td class="d-none d-lg-table-cell">17 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><div class="badge ms_process">Process</div></td>
+                          <td>
+                            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row" colspan="4">
+                            <span><i class="fa-solid fa-code"></i></span> Classe 78
+                          </th>
+                          <td class="d-none d-lg-table-cell">18 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><div class="badge ms_done">Done</div></td>
+                          <td>
+                            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row" colspan="4">
+                            <span><i class="fa-solid fa-code"></i></span> Classe 79
+                          </th>
+                          <td class="d-none d-lg-table-cell">19 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><div class="badge ms_failed">failed</div></td>
+                          <td>
+                            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row" colspan="4">
+                            <span><i class="fa-solid fa-code"></i></span> Classe 80
+                          </th>
+                          <td class="d-none d-lg-table-cell">20 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><div class="badge ms_done">Done</div></td>
+                          <td>
+                            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row" colspan="4">
+                            <span><i class="fa-solid fa-code"></i></span> Classe 81
+                          </th>
+                          <td class="d-none d-lg-table-cell">21 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><div class="badge ms_failed">failed</div></td>
+                          <td>
+                            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row" colspan="4">
+                            <span><i class="fa-solid fa-code"></i></span> Classe 82
+                          </th>
+                          <td class="d-none d-lg-table-cell">22 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td><div class="badge ms_done">Done</div></td>
+                          <td>
+                            <button class="btn"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- /table -->
+
+                  <div class="card mb-3">
+                      <div class="card-header fw-bold">
+                          Todo
+                      </div>
+                      <div class="p-3">
+                          <div class="card">
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="kickoff">
+                                      <label class="form-check-label" for="kickoff">
+                                          Kickoff nuove classi
+                                      </label>
+                                  </div>
+                                </li>
+                                <li class="list-group-item">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="lezionebootstrap">
+                                      <label class="form-check-label" for="lezionebootstrap">
+                                          Lezione su Bootstrap 5 in classe #75
+                                      </label>
+                                  </div>
+                                </li>
+                                <li class="list-group-item">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="usernamegithub">
+                                      <label class="form-check-label" for="usernamegithub">
+                                          Controllare username github studenti
+                                      </label>
+                                  </div>
+                                </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="card mb-3">
+                    <div class="card-header fw-bold">
+                      F.A.Q
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Come aggiungere un nuovo studente?
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Come posso accedere alle informazioni del mio account?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Posso usare questa dashboard da mobile?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ms_container border rounded p-3">
+                    <div class="card">
+                      <img src="img/stats.jpeg" class="card-img-top" alt="stats">
+                      <div class="card-body">
+                        <h5 class="card-title">Utenti attivi</h5>
+                        <p class="card-text border-bottom">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                        <div class="border-bottom py-1">Gennaio: 1200</div>
+                        <div class="border-bottom py-1">Febbraio: 800</div>
+                        <div class="border-bottom py-1">Marzo: 1500</div>
+                        <a href="#">Visualizza report approfondito</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /data -->
+
+        </div>
+        <!-- /main content -->
+    </main>
+    <!-- /main -->
+  </div>
+
 </body>
 </html>
