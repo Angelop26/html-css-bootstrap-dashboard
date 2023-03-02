@@ -21,6 +21,10 @@ ul{
     background-color: #E5E5E5;
 }
 
+.ms_header-search.form-control:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
 header .input-group-text{
     background-color: #E5E5E5;
 }
@@ -71,7 +75,7 @@ header .navbar-collapse{
     background-color: #165BBA;
 }
 
-.badge:hover{
+.ms_badges .badge:hover{
     cursor: pointer;
     background-color: #051E34;
 }
@@ -85,7 +89,10 @@ header .navbar-collapse{
     border-color: transparent;
 }
 
-/* main */
+.ms_canvas .form-control{
+    background-color: white;
+}
+/* data */
 .ms_main .accordion{
     border-radius: 0;
 }
